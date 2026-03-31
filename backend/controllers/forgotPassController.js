@@ -25,10 +25,7 @@ export const forgotPassword = async (req, res) => {
     // creating token
 
     // Create the Reset URL (Frontend link)
-    const resetUrl = `http://localhost:5173/resetpass/${user._id}/${token}`;
-
-
-    // Have to change after backend deployment //
+    const resetUrl = `https://finestoreforu.netlify.app/resetpass/${user._id}/${token}`;
 
     // Send the Email
     const message = `

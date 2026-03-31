@@ -76,9 +76,7 @@ const mailOptions = {
           <p style="margin: 5px 0; color: #374151;"><b>Total Amount:</b> ₹${totalAmount.toLocaleString()}</p>
         </div>
 
-        <a href="http://localhost:5173/my-orders" style="display: inline-block; background-color: #4f46e5; color: #ffffff; padding: 12px 25px; text-decoration: none; border-radius: 6px; font-weight: bold;">View Order Status</a>
-        
-        // Have to change after backend deployment //
+        <a href="https://finestoreforu.netlify.app/my-orders" style="display: inline-block; background-color: #4f46e5; color: #ffffff; padding: 12px 25px; text-decoration: none; border-radius: 6px; font-weight: bold;">View Order Status</a>
 
       </div>
       <div style="background-color: #f3f4f6; padding: 20px; text-align: center; color: #9ca3af; font-size: 12px;">
